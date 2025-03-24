@@ -6,7 +6,7 @@ using UnityEngine.InputSystem.Interactions;
 public class Movement : MonoBehaviour
 {
 
-    [SerializeField] Rigidbody2D _rigidbody;
+    [SerializeField] Rigidbody _rigidbody;
     public float directionX;
     public Vector2 velocity;
     private Vector2 currentVelocity;
